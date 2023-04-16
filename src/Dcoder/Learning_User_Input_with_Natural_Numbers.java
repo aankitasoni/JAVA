@@ -1,5 +1,5 @@
 package Dcoder;
-
+import java.util.*;
 public class Learning_User_Input_with_Natural_Numbers {
     public static void main(String args[])
     {
