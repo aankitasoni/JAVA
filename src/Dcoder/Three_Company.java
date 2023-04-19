@@ -12,6 +12,4 @@ public class Three_Company {
             }
         }
     }
-
-
 }
