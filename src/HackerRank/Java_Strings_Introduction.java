@@ -1,5 +1,6 @@
 package HackerRank;
 import java.util.*;
+
 public class Java_Strings_Introduction {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
