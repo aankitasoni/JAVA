@@ -17,6 +17,7 @@ public class stack {
         System.out.println(animals);
         animals.pop();
         System.out.println(animals.peek());
+        System.out.println(animals);
         animals.pop();
         System.out.println(animals.peek());
     }
