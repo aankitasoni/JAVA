@@ -5,6 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 // Linked Hash Set == Order Maintained
+// TE = O(1)
 
 public class Linked_Hash_Set {
     public static void main(String[] args) {
