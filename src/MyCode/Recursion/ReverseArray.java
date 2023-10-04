@@ -7,15 +7,19 @@ public class ReverseArray {
        reverse(arr, n);
     }
     public static void reverse(int arr[] , int n){
-        int rev[] = new int[n];
-        for (int i =n-1; i>=0; i--){
-            rev[n-i-1] = arr[i];
+        int p1=0, p2 =n-1;
+        while(p1 < p2){
+            int temp = arr[p1];
+            arr[p1] = arr[p2];
+            arr[p2] = temp;
+            p1++;
+            p2--;
         }
-        print(rev, n);
+        print(arr, n);
     }
-    public static void print(int rev[], int n){
+    public static void print(int arr[], int n){
         for (int i =0; i<n; i++){
-            System.out.print(rev[i] + " ");
+            System.out.print(arr[i] + " ");
         }
     }
 }
