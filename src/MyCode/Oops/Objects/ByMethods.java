@@ -1,6 +1,6 @@
 package MyCode.Oops.Objects;//package MyCode.Oops.Objects;
 
-class Student{
+class Student2{
     int id;
     String name;
 
@@ -17,7 +17,7 @@ class Student{
 
 public class ByMethods {
     public static void main(String[] args) {
-        Student s1 = new Student();
+        Student2 s1 = new Student2();
         s1.studentDetails(14, "Priya");
         s1.display();
     }

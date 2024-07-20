@@ -1,12 +1,12 @@
 package MyCode.Oops.Objects;
 
-class Student{
+class Student3{
     int id ;
     String name;
 
 
     // Constructor class calling
-    Student(int roll, String naam){
+    Student3(int roll, String naam){
         this.id = roll;
         this.name = naam;
     }
@@ -18,8 +18,8 @@ class Student{
 
 public class ByConstructor {
     public static void main(String[] args) {
-        Student s1 = new Student(10, "Raj");
-        Student s2 = new Student(11, "Rajodhar");
+        Student3 s1 = new Student3(10, "Raj");
+        Student3 s2 = new Student3(11, "Rajodhar");
         s1.display();
         s2.display();
     }
